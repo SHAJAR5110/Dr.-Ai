@@ -29,7 +29,7 @@ def set_custom_prompt(custom_prompt_template):
 def load_llm(token):
     
     try:
-        endpoint_url = f"https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
+        endpoint_url = f"https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3"
         llm = HuggingFaceEndpoint(
             endpoint_url=endpoint_url,
             huggingfacehub_api_token=token,
