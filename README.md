@@ -2,6 +2,8 @@
 
 A RAG (Retrieval-Augmented Generation) powered chatbot that answers your questions based on your custom knowledge base using HuggingFace models and FAISS vector search — all wrapped in a friendly Streamlit interface.
 
+Live Link: https://98czftepcm5knsgki8gtso.streamlit.app/
+
 ## 🔧 Features
 
 - Streamlit chat UI
